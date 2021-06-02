@@ -3,7 +3,7 @@ from shop.models import Category, Product
 from django.contrib.auth.decorators import login_required
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from wishlist.models import Wishlist, WishlistItem
-from django.contrib.postgres.search import SearchVector
+# from django.contrib.postgres.search import SearchVector
 
 
 def product_list(request, category_slug=None):
